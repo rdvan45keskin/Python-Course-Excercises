@@ -1,0 +1,56 @@
+import os
+import sys
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtGui import QIcon
+
+qt_plugins_path = os.path.join(os.path.dirname(QtWidgets.__file__), 'Qt5/plugins')
+os.environ['QT_PLUGIN_PATH'] = qt_plugins_path
+
+
+def window():
+    app = QApplication(sys.argv)
+    win = QMainWindow()
+
+    win.setWindowTitle("first application")
+    win.setGeometry(200,200,500,500)        # ilk 2 parametre sol üste göre konumu son 2 parametre boyutu belirler
+    win.setWindowIcon(QIcon("4070.png"))
+    win.setToolTip("my tooltip")
+
+    lbl_name = QtWidgets.QLabel(win)
+    lbl_name.setText("Adınız: ")
+    lbl_name.move(50,30)
+
+    lbl_surname = QtWidgets.QLabel(win)
+    lbl_surname.setText("Soyadınız: ")
+    lbl_surname.move(50,70)
+
+    txt_name = QtWidgets.QLineEdit(win)     # input line
+    txt_name.move(150,30)
+
+    txt_surname = QtWidgets.QLineEdit(win)     # input line
+    txt_surname.move(150,70)
+
+    def clicked(self):
+        print("butona basıldı name: " + txt_name.text()+ " surname: " + txt_surname.text()) 
+
+    btn_save = QtWidgets.QPushButton(win)
+    btn_save.setText("Kaydet")
+    btn_save.move(150,110)
+    btn_save.clicked.connect(clicked)
+
+    win.show()
+    sys.exit(app.exec_())
+
+
+window()
+
+# Qlabel
+# QComboBox
+# QCheckBox
+# QRadioButton
+# QPushButton
+# QTableWidget
+# QLineEdit
+# QSlide
+# QProgressBar

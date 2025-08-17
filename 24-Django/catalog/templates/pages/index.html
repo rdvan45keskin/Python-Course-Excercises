@@ -1,0 +1,63 @@
+{% extends 'layout.html '%}
+{% load static %}   <!--css ve img dosyaları kullanmak için gerekli-->
+
+{% block content %}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-md-3"> <!--resim için 3 lük yer-->
+                        <img class="card-img" src="{% static 'img/4.png' %}" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <div class="card-title">Lorem, ipsum.</div>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloremque.</p>
+                            <p class="card-text">
+                                <small class="text-muted">126 days ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-md-3"> <!--resim için 3 lük yer-->
+                        <img class="card-img" src="{% static 'img/5.png' %}" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <div class="card-title">Lorem, ipsum.</div>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloremque.</p>
+                            <p class="card-text">
+                                <small class="text-muted">126 days ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-md-3"> <!--resim için 3 lük yer-->
+                        <img class="card-img" src="{% static 'img/yakuza.jpg' %}" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <div class="card-title">Lorem, ipsum.</div>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloremque.</p>
+                            <p class="card-text">
+                                <small class="text-muted">126 days ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

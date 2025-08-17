@@ -1,0 +1,228 @@
+			---Python Objeleri ve Veri Yapıları---
+1-)variables.py 		---değişkenler
+2-)variables_demo.py 		---değişkenlerle örnek
+3-)type_conversion.py		---değişken dönüştürme
+4-)type_conversion_demo.py	---değişken dönüştürme örnek
+5-)strings.py			---stringler ve dizide kullanma kuralları
+6-)format.py			---+name+ falan yerine .format(name,surname) gibi daha kolay yaptırıyo
+7-)strings_demo.py		---stringlerle örnek
+8-)string_methods.py		---string metotları ve ne işe yaradıkları
+9-)string_methods_demo.py	---string metotları örnek
+10-)lists.py			---listelere giriş
+11-)lists_demo.py		---listelerle örnek ondalık sayıların belli bir kısmını alma örneği var
+12-)list_methods.py		---liste methodları
+13-)list_methods_demo.py	---liste methodları örnek
+14-)tuples.py			---dizilere benzeyen ancak değiştirme yapılamayan tuples konu anlatımı
+15-)dictionary.py		---key ve value yöntemiyle çalışan daha büyük boyutlu dizi işe yarayabilir dictionary tipi
+16-)dictionary_demo.py		---dictionary ile sağlam örnek
+17-)sets.py			---dizilerden biraz daha farklı ama methodlar aynı gibi
+18-)reference.py		---adresler ve değişiklikleri açıklama
+			
+			---Python Operatörleri---
+1-)assigment.py			---atama operatörleri
+2-)assigment_demo.py		---atama operatörleri örnek
+3-)comparison.py		---karşılaştırma operatörleri büyüktür küçüktür eşittir falan
+4-)comparison_demo.py		---karşılaştırma operatörler örnek
+5-)logical.py			---logic işlemler or and not gibi
+6-)logical_demo.py		---logic işlemler örnek
+7-)others.py			---is ve in fonksiyon kullanımları
+
+
+			---Python Koşul ifadeleri---
+1-)if-else.py			---if ve else komutlarını anlatır
+2-)if-elif.py			---if ve elif komutlarını anlatır
+3-)if-else_demo.py		---if ve else ile ilgili örnekler datetime kullanarak
+4-)if-else_demo_2.py		---logic işlemler örneklerini if else ile yapıyoz
+
+			---Python Döngüler---
+1-)for.py			---for döngülerini anlatır
+2-)for_demo.py			---for döngüleri ile ilgili örnek
+3-)while.py			---while döngülerini anlatır dictionary dizi ile ilgili konular
+4-)while_demo.py		---while ile ilgili dictionary dizi örneği
+5-)break-continue.py		---break(kodu durdurur) ve continue(koşulu atlar devam eder) komutlarını anlatır
+6-)loop_operators.py		---range(aralıkta işlem), enumarate(index yazdırır) ve zip(dizileri birleştirir) komutlarını anlatır
+7-)list_comprehensions.py	---dizilerin for işlemi için çok yararlı bilgiler
+8-)loops_demo.py		---sayı bilme oyunu random methodu ile
+9-)asal_sayi.py			---asal sayı bulma
+
+			---Python Fonksiyonlar---
+1-)methods.py			---kısaca method tekrarı
+2-)functions.py			---fonksiyonlara giriş
+3-)arguments.py			---dizilerle fonksiyonların birlikte kullanımı
+4-)function_demo.py		---fonksiyonlarla ilgili örnekler asalsayı,tam bölen bulma
+5-)lambda.py			---dizideki her elemanı fonksiyona sokan map ve fonksiyon yerine geçen lambda kullanımı
+6-)scope.py			---global ve local değerlerin fonksiyonda değişip değişmediği global methodu kullanımı
+7-)bankamatik.py		---fonksiyonlarla bakiye hesaplayıp para veren bankamatik örneği
+
+			---Python Nesne Tabanlı Programlama---
+1-)oop.py			---nesne tabanlı programlama basit giriş
+2-)class.py			---class methodunu anlatma
+3-)methods.py			---methodların anlatımı ve daire alan çevre hesaplama örneği class ile
+4-)inheritance			---bir classı başka classda kullanma
+5-)specials.py			---classlarda len str del gibi komutların ne yaptırabileceğini ayarlamak
+6-)quiz_demo.py			---sağlam quiz uygulaması
+
+			---Python Modüller---
+1-)pngler			---modüllerin çalışma mantığını anlatıyo
+2-)_math_module.py		---math modülündeki bazı işe yarar özellikler
+3-)_random_module.py		---random modülündeki bazı işe yarar özellikler
+4-)modüle.py and main.py	---modüle.py de kendi modülümüzü yazıp main.pyde kullanma
+
+			---Python Hata ve Hata Denetimi---
+1-)errors.py			---hata çeşitlerini öğrenme
+2-)handling.py			---try ve except ile hataları gösterme
+3-)raise.py			---raise ile hata mesajı oluşturup gösterme
+4-)errors_demo.py		---try except ve raise ile ilgili örnekler
+
+			---Python Dosya Yönetimi---
+1-)files.py			---open() komutu ve erişim modları
+2-)reading.py			---read fonksiyonu ile ilgili dosya içeriğini okuyup ekrana yazdırma
+3-)traversing.py		---with open() komutu ile bazı komutları çalıştırma seek,tell gibi
+4-)updating.py			---dosya içeriğini baştan ortadan ve sondan güncelleme r+ ile
+5-)not_uygulaması		---girilen değerleri kaydedip ortalama hesaplayan ve ortalamaları txt dosyasına yazdırma
+
+			---Python Fonksiyonların İleri Seviye Özellikleri---
+1-)nesned.py			---fonksiyonun içine başka fonksiyon yazıp çalıştırma(recursive)
+2-)returning.py			---fonksiyona değer yollayıp o değerle fonksiyonun içindeki başka fonksiyonu çalıştırma
+3-)params.py			---parametre yollayıp o parametreye göre işlem yapma 2.ye benziyo gibi
+4-)decorators.py		---bir işlemi birden fazla kez yapmak yerine ayrı fonksiyona yazıp başka fonksiyonun içinde o kullanma
+
+			---Python Iterators---
+1-)iterators.py			---for döngüsüyle dizinin elemanlarını yazdırmanın arka planını anlatıyor iter methodu ile
+
+			---Python Generators---
+1-)generators.py		---dizinin bellekte yer kaplamasını önleyip 1 kere oluşturup 1 kere kullanma ve ardından bellekten silme
+
+			---Python Ileri Seviye Modüller & Web Scraping---
+1-)_datetime.py			---datetime modulü zaman ile ilgili işlemler yapabilme
+2-)_os.py			---os modülü dosya oluşturma konum gösterme 
+3-)_re.py			---regular expression ile verilen ifadede arama yapıp sonuç döndürme harf kelime aramak gibi
+4-)_json.py			---python verilerini jsona veya jsonu pythona dönüştürme
+5-)json.py and users.json	---kayıt olma giriş yapma kimlik görüntüleme çıkış falan en kaplsamlı json örneği
+6-)_requests.py			---requests modülü ile api denen kodla internetten bilgi alıp onunla işlem yapma
+7-)_Exchange.py			---requests ile internetten anlık döviz kurlarını alıp döviz işlemi yapma
+8-)github.py			---request ile githubda kullanıcı bulma kullanıcının paylaşımlarını bulma gibi işlemler
+9-)themoviedb.py		---request ile linkleri değiştirerek ve api ile farklı işlemler yapma
+10-)_beautifulsoup.py		---htmlde istenilen bölümün seçiminde kullanılır
+11-)imdb_soup.py		---sitedeki htmlden belirli bilgileri seçip kullanma // Web Scraping
+12-)trendyol_soup.py		---trendyoldaki ps5leri ve fiyatlarını yazdırma // Web Scrapping // akakçe gibi
+
+			---Python Bot Yazımı---
+1-)chromedriver.exe		---selenium için lazım
+2-)installing.py		---selenium kullanımı
+3-)selenium_basic.py		---selenium basit modülleri
+4-)navigating.py		---selenium ile googlede arama yaptırma
+5-)github % githubUserInfo.py	---selenium ile github giriş yapıp repositoriesleri yazdırma
+6-)cookieClickerBot.py		---selenium ile otomatik cookie clicker botu
+7-)youtubeSearchBot		---selenium ile youtubeye girip arama yapıp sonuç filtreleyip oynatma
+
+			---Python Selenium Instagram Bot---
+1-)chromedriver.exe		---selenium için lazım
+2-)InstagramUserInfo.py		---instagram kullanıcı adı şifre
+3-)Instagram.py			---selenium ile instagrama giriş yapıp takipçileri listeleme
+
+			---Python Selenium Twitter Bot---
+1-)chromedriver.exe		---selenium için lazım
+2-)twitterUserInfo.py		---twitter kullanıcı adı ve şifre
+3-)twitter.py			---selenium ile twitter giriş yapıp konu aratıp listeleme
+
+			---Python Veri Analizi Numpy---
+1-)numpy_basic.py		---numpy giriş
+2-)numpy_arrays.py		---numpy kullanışlı modülleri
+3-)indexing.py			---numpy indexlere göre görüntüleme
+4-)numpy_operations.py		---numpy matematiksel operasyonlar yapma toplama çıkarma birleştirme gibi
+5-)numpy_demo.py		---numpy ile ilgili kapsamlı tekrar
+
+			---Python Veri Analizi Pandas---
+1-)pandas_series.py		---pandas series yani tek sütunlu veriler
+2-)pandas_dataframes.py		---pandas dataframes yani çok sütunlu veriler
+3-)pandas_files.py		---pandas ile dışarıdan dosyaları açma
+4-)pandas_selecting.py		---pandas ile seçme,kolon ekleme ve kolon silme işlemleri
+5-)pandas_filters.py		---pandas ile detaylı seçim(ilk 5 satırı son 5 satırı veya koşul koyma)
+6-)imdb.py			---pandas ile imdb1.csv verisini analiz etme
+7-)groupby.py			---pandas ile sql serverdaki gibi belli kritere göre gruplama
+8-)missing_data.py		---pandas ile eksik gelen bilgiyle(NaN) ilgili işlem yapma modülleri
+9-)pandas_str.py		---pandas ile stringlerde işlem yapma
+10-)join_merge.py		---pandas ile sql serverdaki inner,left,right,outher join gibi kavramlar
+11-)pandas_operations.py	---pandas ile ilgili bazı modüller ve ne işe yaradıkları
+12-)nba_demo.py			---Players.csv içindeki bilgilerle bazı sorgular
+13-)youtube_demo.py		---youtube-ing.csv içindeki bilgilerle bazı sorgular
+
+			---Python Veri Görselleştirme Matplotlib---
+1-)basics.py			---ne işe yaradığı ve bazı basit komutlar
+2-)figüre.py			---görsel üzerinde bazı oynamalar ve basitçe görsel iyileştirmeler
+3-)graphs.py			---grafik türleri örnekleri(stack plot,bar,histogram)
+
+			---SQL Veritabanı - SQLServer & SQLite---
+1-)sqlServer_Connection.py	---sql server sunucusuna python ile bağlanma
+2-)demo_schoolsdb.py		---schoolsdb adlı databasede öğrendiklerimizi uygulama
+3-)_insert.py			---tabloya veri ekleme tek tek veya toplu şekilde
+4-)connection.py		---sql bağlantı bilgileri bu dosyaya kayıt edildi ve her dosyaya import edilerek kullanılıyor
+5-)_select.py			---tablodaki verileri gösterme
+6-)_aggerate.py			---tabloda count,min,max,average gibi işlemleri yapma
+7-)updating.py			---tablodaki veri veya verileri güncelleme
+8-)deleting.py			---tablodaki veri veya verileri silme
+9-)joins.py			---inner,left,right,outher join kullanma
+10-)schools-app			---okul veritabanı oluşturma ile ilgili sağlam örnek ama yarım kaldı tamamlanabilir
+11-)sqlite_db.py		---sqlite kurup bağlanma 
+
+			
+			---NoSQL database - MongoDb---
+1-)mongodb_connections.py	---mongodb yükleme ve bağlanma
+2-)_insert.py			---veritabanına bir veya birden fazla kayıt ekleme
+3-)find_records.py		---veritabanındaki kayıtları bulma
+4-)filter_records.py		---veritabanındaki kayıtları filtreleyip sorgulama
+5-)sorting.py			---veritabanındaki kayıtları sıralama
+6-)updating.py			---veritabanındaki kayıt veya kayıtları güncelleme
+7-)deleting.py			---veritabanındaki kayıt veya kayıtları silme
+
+			---Masaüstü Uygulaması Geliştirme - PyQt5---
+1-)creating_app.py		---temel masaüstü uygulaması oluşturma
+2-)win_items.py			---temel input yerleri ve buton ekleme
+3-)window.py			---class oluşturup daha okunabilir kod
+4-)calculator.py		---calculator oluşturma
+5-)calculatorWithUI.py ,calc.ui ---QT designer ile arayüz oluşturup py dosyasına import ederek kullanma ***
+6-)layout.py			---farklı gridler oluşturup ızgara sistemi ile kullanma
+7-)_cb.ui,_cb.py,cbConverted.py ---Qt designer ile _cb.ui oluşturup sonra cbConverteed.py dosyasına dönüştürüp checkbox kullanma
+8-)_rb.ui,_rb.py,rbForm.py	---Qt designer ile _rb.ui oluşturup sonra rbForm.py dosyasına dönüştürüp radio button kullanma
+9-)_cmbx.ui,_cmbx.py,cmbxform.py---Qt designer ile _cmbx.ui oluşturup sonra cmbxform.py dosyasına dönüştürüp Combobox kullanma
+10-)_msgbx.ui,_msgbx.py,msgFrm.py--Qt designer ile _msgbx.ui oluşturup sonra msgFrm.py dosyasına dönüştürüp MsgBox kullanma
+11-)_date.ui,_date.py,dateFrm.py---Qt designer ile _date.ui oluşturup sonra dateFrm.py dosyasına dönüştürüp DateBox kullanma
+12-)_list.ui,_date.py,listFrm.py---Qt designer ile _list.ui oluşturup sonra listFrm.py dosyasına dönüştürüp Listede işlemler yapma
+13-)_tble.ui,_tble.py,tbleFrm.py---Qt designer ile _tble.ui oluşturup sonra tbleFrm.py dosyasına dönüştürüp Tabloda işlemler yapma
+14-)tetris.py			---internetten tetris buldum
+
+			---Bootstrap---
+1-)bootstrap_setup.html		---bootstrap 5 entegre etme (4 daha iyi amk)
+2-)heading_text.html		---farklı boyutlarda farklı yazı tipleriyle yazılar
+3-)bootstrap_colors.html	---bootstrap 5 farklı renkleri kullanma
+4-)buttons.html			---bootstrap 5 farklı buton türleri
+5-)margin_padding.html		---bootstrap 5 margin bloğun konumunu, padding bloğun içindeki objenin konumunu değiştirir
+6-)border_sizing.html		---bootstrap 5 farklı borderlar kullanımı bu işe yarayabilir
+7-)text_align_display.html	---bootstrap 5 metinleri farklı yerlere hizalama
+8-)table_alerts.html		---bootstrap 5 farklı tablolar kullanımı
+9-)list_listgroups.html		---bootstrap 5 listeler ile farklı oluşumlar
+10-)alerts_media_objects.html	---bootstrap 5 farklı alert mesajları ve alt alta yorum templatesi
+11-)image_float.html		---bootstrap 5 resimler ile ilgili işlemler ve float ile tek satırı %25 %75 bölme
+12-)forms.html			---bootstrap 5 ile form oluşturup input alanları radio, check falan ekleme
+13-)cards.html			!--bootstrap 5 cardlar bu çok önemli
+14-)jumbotron_breadcumb.html	!--bootstrap 5 de işe yaramıyo ama bootsrap 4 te çok iyi bu
+15-)dropbuttons.html		---bootstrap 5 butonla alt sekmeler açma
+16-)navbar.html			!--bootstrap 5 sayfanın en yukarısında bulunan navbar ekleme bu da çok işe yarıyo
+17-)collapse-acordion.html	---bootstrap 5 tıklayınca bilgiler açılan bir sistem
+18-)Carousel-slider.html	!--bootstrap 5 resimler ekleyip sürekli değiştirme veya butonlarla resimleri değiştirme bu çok iyi
+19-)modals.html			---bootstrap 5 butona tıklayınca mesaj falan gösterme
+20-)tooltip.html		---bootstrap 5 butonun üstüne gelince yazı çıkarma
+21-)popover.html		---bootstrap 5 butona basınca card çıkartma
+22-)scrollspy.html		!--bootstrap 5 scroll kaydırınca navbardaki active linkin değişmesi
+23-)breakpoins.html		---bootstrap 5 farklı ekran boyutlarında farklı özellikler ekleme
+24-)grid_layout.html		!--bootstrap 5 içeriği farklı boyutlara bölme önemli bu
+25-)responsive_layout.html	!--bootstrap 5 farklı ekran boyutlarında farklı özellikler ekleme
+26-)blog/blog.html		---bootstrap 4 blog sayfası oluşturma demo
+
+			---Django---
+1-)django kullanımı.txt		---bu buraya anlatılmaz txtye yazdım
+
+			
+
+

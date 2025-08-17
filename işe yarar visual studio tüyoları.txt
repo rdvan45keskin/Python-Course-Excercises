@@ -1,0 +1,3 @@
+ctrl+b 	 = soldaki dosyaların görünümünü açıp kapar
+ctrl+k+c = seçilen satırı yorum satırı yapar
+ctrl+k+u = seçilen satırı yorum satırından kaldırır

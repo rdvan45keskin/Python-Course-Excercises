@@ -1,0 +1,51 @@
+
+
+
+
+
+
+				--movie listeleme sayfası--
+
+-movies içindeki wievs.py içinde index fonkisyonunda context oluşturup kullandık
+-sonra da movies içinde list.html içinde yazdırdık
+--yani databaseden bilgi alıp html içinde yazdırabiliyoz
+-wievs içine .modelsten Movie classını import edip kullandık
+-sonra list.html içinde if ile film olup olmadığını kontrol ettik
+-sonra for ile film sayısı kadar döngü oluşturduk ve filmleri gösterdik
+-sonra html içindeki title,text gibi yerleri databaseden gelen movie.name movie.description gibi şeylerle değiştirip dönen filmin içeriklerini aktardık
+-sonra models içinde get_image_path fonksiyonu oluşturup oradan gelen sonucu list.html içinde kullandık
+-... days ago için ise django humanize kullandık internette ayrıntılı yazıyo
+
+				--movie detay sayfası--
+
+-list içinde movie.name olan yere link ekleyip içine movie.id ekledik
+-wievs içine django.shortcutstan get_object_or_404 import ettik ve movie objesine tanımladık film idsi varsa contexte döner ve o da bize o filmin idsine eşit olan detail sayfasını getirir eğer id yoksa 404 hatası verir
+
+				--user uygulaması--
+
+-catalogta bulunan settings içindeki installed_apps'e "user" olarak ekledik
+-user klasörüne urls.py isminde dosya oluşturup içine gerekli bilgileri doldurduk
+-catalogta bulunan urls.py içine oluşturduğumuz dosyayı tanımladık
+-user klasöründeki wievs içine gerekli methodları oluşturduk
+-gerekli html dosyalarını oluşturduk ve navbar için eklemeler yaptık
+
+				--register kullanıcı kayıt oluşturma--
+-register.html üzerinde form oluşturup gerekli inputları oluşturduk
+-action ekledik ve linklere yönlendirdik extra {% csrf_token %} ekledik
+-viewste kayıt işlemi için gerekli bilgileri kontrollerden geçirip en sonda veritabanına kaydettik
+
+				--login kullanıcı giriş sayfası oluşturma--
+-wievste post ile bilgileri aldıktan sonra auth sınıfı ile veritabanından gelen verileri alıp birbirleriyle karşılaştırdık eğer doğruysa giriş yaptı değilse tekrar login ekranına gitti
+
+				--django ekrana mesaj gösterme--
+-views içine messages klasörü import ettik
+-partials içine messages.html oluşturup mesajların gelmesini sağladık
+-layout içine messages.htmli entegre ettik
+-danger hata tagı için setting dosyasına özel ayarlama yaptık
+-
+				
+				--nav links & logout--
+-giriş yapılıp yapılmadığına göre navdaki linkler farklı oluyor bunu navbar.html den ayarladık
+-navbar.html deki logouta form action ekledik javascript ile tıklama özelliği verdik
+-wievste logout fonksiyonunu oluşturduk ve tıklanmışsa çıkış yapıp mesaj verdikten sonra indexe yolladık
+
