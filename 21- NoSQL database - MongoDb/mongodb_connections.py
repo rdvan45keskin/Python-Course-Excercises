@@ -4,7 +4,7 @@ import pymongo
 # myclient = pymongo.MongoClient("mongodb://localhost:27017")
 
 # bulut swye bağlanma
-myclient = pymongo.MongoClient("mongodb+srv://IndigoApatosarus:1QAZxsw2Ed@cluster0.olkul.mongodb.net/node-app?retryWrites=true&w=majority&appName=Cluster0")
+myclient = pymongo.MongoClient("mongodb+srv://(Linkin gerisini sildim)")
 mydb = myclient["node-app"]
 # print(myclient.list_database_names())
 
