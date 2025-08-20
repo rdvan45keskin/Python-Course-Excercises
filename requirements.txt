@@ -1,0 +1,9 @@
+selenium
+PyQt5
+Django
+numpy
+pandas
+matplotlib
+beautifulsoup4
+requests
+pymongo
