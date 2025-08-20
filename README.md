@@ -144,13 +144,9 @@ Ayrıca **web geliştirme, veri analizi, bot yazımı, masaüstü geliştirme** 
 
 ```bash
 # Reponun klonlanması
-git clone https://github.com/kullanici_adin/python-kurs-uygulamalari.git
-cd python-kurs-uygulamalari
 
-# Sanal ortam oluşturma
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+git clone https://github.com/rdvan45keskin/Python-Course-Exercises.git
+cd Python-Course-Exercises
 
 # Gereksinimleri yükleme
 pip install -r requirements.txt
